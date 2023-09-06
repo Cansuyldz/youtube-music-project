@@ -1,0 +1,28 @@
+.swiper-item {
+  .d-flex {
+    display: flex;
+
+    .swiper-item-desc {
+      padding-left: 20px;
+
+      .swiper-y-music-img img {
+        border-radius: 5px;
+      }
+
+      .swiper-y-music-prg {
+        padding: 10px 15px;
+        line-height: 1.5rem;
+
+        .title {
+          font-weight: bold;
+        }
+
+        .subtitle {
+          color: #818181;
+        }
+      }
+    }
+  }
+}
+
+

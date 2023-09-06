@@ -1,0 +1,51 @@
+body{
+  margin: 0 12%;
+}
+.header {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding:25px;
+  align-items: center;
+
+  &-logo {
+    display: inline-block;
+    line-height: 20px;
+  }
+  &-menu {
+    ul {
+      display: flex;
+    }
+
+    li {
+      list-style-type: none;
+      padding-left: 50px;
+      font-weight: bold;
+
+
+      a {
+        text-decoration: none;
+        color: #818181;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+
+    input {
+      background: none;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }
+
+  &-account {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background: white;
+  }
+}

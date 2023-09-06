@@ -1,0 +1,36 @@
+
+.swiper-item-desc + .swiper-item-desc {
+  margin-top: 20px;
+}
+.swiper-y-music-img {
+  border-radius: 20px;
+}
+.swiper-y-music-prg {
+  .title {
+    padding-top: 3px;
+    line-height: 1.5rem;
+    font-weight: 600;
+    padding-left: 15px;
+  }
+  .subtitle{
+    color: #818181;
+    font-weight: 550;
+    padding-left: 15px;
+    font-size: 14px;
+    width: 118%;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex .swiper-item{
+  padding: 0;
+}
+.swiper-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+

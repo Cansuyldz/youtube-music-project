@@ -1,0 +1,62 @@
+<div class="home">
+  <div class="home-menu">
+    <ul>
+      <li>
+        <button>Rahatlama</button>
+      </li>
+      <li>
+        <button>Odaklanma</button>
+      </li>
+      <li>
+        <button>Enerji</button>
+      </li>
+      <li>
+        <button>İş/Ev</button>
+      </li>
+      <li>
+        <button>Spor</button>
+      </li>
+    </ul>
+  </div>
+  <div class="home-group">
+    <div class="d-flex">
+      <div class="image">
+      </div>
+      <div class="information">
+        <div class="user">
+          CANSU YILDIZ
+        </div>
+        <div class="subtitle">Yeniden dinleyin</div>
+      </div>
+    </div>
+
+    <div class="swiper-buttons mySwiper">
+      <div class="btn-other">
+        Diğer
+      </div>
+      <div class="next-btn">
+
+      </div>
+      <div class="back-btn">
+
+      </div>
+    </div>
+  </div>
+</div>
+<app-swiper></app-swiper>
+<div class="quickSelection">
+  <div class="quickSelection-title">
+    BİR ŞARKIDAN RADYO BAŞLATIN
+  </div>
+  <div class="quickSelection-subtitle">Hızlı Seçimler</div>
+  <app-quicselectionswiper></app-quicselectionswiper>
+</div>
+
+<script>
+  let swiper = new Swiper(".swiper-buttons", {
+    navigation: {
+      nextEl: ".next-btn",
+      prevEl: ".back-btn",
+    },
+  });
+</script>
